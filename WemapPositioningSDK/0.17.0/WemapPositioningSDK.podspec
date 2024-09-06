@@ -7,7 +7,7 @@ Pod::Spec.new do |spec|
   spec.license                    = { :type => 'Copyright', :text => 'Copyright 2024 Wemap SAS' }
   spec.authors                    = 'Wemap SAS'
 
-  spec.ios.deployment_target      = '13.0'
+  spec.ios.deployment_target      = '12.0'
   spec.swift_version              = '5.10'
 
   spec.frameworks                 = 'CoreLocation', 'CoreMotion', 'ARKit'
