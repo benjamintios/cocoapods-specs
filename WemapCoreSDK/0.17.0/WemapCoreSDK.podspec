@@ -16,6 +16,8 @@ Pod::Spec.new do |spec|
   spec.dependency             'RxSwift', rx_version
   spec.dependency             'RxCocoa', rx_version
 
+  spec.dependency             'Alamofire', '5.9.1'
+
   spec.source                 = { :s3 => "https://mobile-dev.getwemap.com.s3.amazonaws.com/wemap/sdk/core/ios/#{spec.version}/#{spec.name}.zip" }
 
   spec.vendored_frameworks    = "#{spec.name}/#{spec.name}.xcframework"
