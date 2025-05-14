@@ -13,7 +13,7 @@ Pod::Spec.new do |spec|
   spec.frameworks             = 'Foundation', 'UIKit', 'CoreLocation', 'CoreFoundation'
 
   spec.dependency             'WemapCoreSDK', "~>#{spec.version}"
-  spec.dependency             'MapLibre', '~>6.12.1'
+  #spec.dependency             'MapLibre', '~>6.12.1'
   spec.dependency             'Zip', '~> 2.1'
 
   spec.source                 = { :s3 => "https://mobile-dev.getwemap.com.s3.amazonaws.com/wemap/sdk/map/ios/#{spec.version}/#{spec.name}.zip" }
